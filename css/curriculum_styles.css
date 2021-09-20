@@ -1,0 +1,149 @@
+/* Variables */
+
+:root {
+    --nav-color: -webkit-linear-gradient(left, rgba(20, 62, 153, 1) 0%, rgba(20, 62, 153, 1) 28%, rgba(0, 69, 67, 1) 86%, rgba(0, 69, 67, 1) 100%);
+    --box: 0px 0px 15px rgb(107, 107, 107);
+    --test_color: linear-gradient(93deg, rgba(144, 223, 170, 1) 0%, rgba(61, 155, 196, 1) 100%);
+    --footer-color: -webkit-linear-gradient(left, rgba(32, 175, 227, 1) 0%, rgba(32, 175, 227, 1) 0%, rgba(13, 85, 227, 1) 49%, rgba(5, 1, 84, 1) 100%);
+    --font: 'Didact Gothic', sans-serif;
+    --input-font: linear-gradient(78deg, rgba(255, 255, 255, 1) 0%, rgba(226, 245, 237, 1) 100%);
+}
+
+
+/* body */
+
+html,
+body {
+    margin: 0;
+    background: white;
+}
+
+
+/* titulo de la pagina */
+
+.main_title {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+p,
+h1,
+h2,
+h4,
+h3,
+li,
+a,
+label,
+input {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background: var(--test_color);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    margin: auto 0;
+}
+
+b {
+    color: #90dfaa;
+}
+
+h2,
+h4 {
+    text-transform: uppercase;
+    color: #90dfaa;
+    font-weight: 700;
+}
+
+p {
+    color: #272727;
+}
+
+figure {
+    margin: 0;
+}
+
+.page_options {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.nav_option {
+    margin-left: 25px;
+    color: white;
+}
+
+.my_name {
+    text-align: center;
+}
+
+.my_photo_image {
+    margin: 0;
+    text-align: center;
+}
+
+section {
+    width: 50%;
+    margin: 5px 15px;
+}
+
+.union_sections {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.center_title {
+    text-align: center;
+}
+
+.mockup_image {
+    margin: 15px 0 0 0;
+    text-align: center;
+}
+
+.footer {
+    background: var(--test_color);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer label {
+    color: white;
+}
+
+input {
+    outline: none;
+    background: var(--input-font);
+    border: none;
+}
+
+input:focus {
+    border-bottom: #99e8c9 2px solid;
+}
+
+.container {
+    background-color: inherit;
+    display: inherit;
+    align-items: inherit;
+    max-width: 1200px;
+    height: inherit;
+    margin: 0 auto;
+    justify-content: inherit;
+}
